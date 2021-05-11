@@ -103,7 +103,7 @@ export const reducer = (state = INITIAL_STATE, action) => {
             return {
                 ...state,
                 token: action.payload.token,
-                uderId: action.payload.userId,
+                userId: action.payload.userId,
             }
         case actionTypes.AUTH_LOGOUT:
             return {

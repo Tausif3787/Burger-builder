@@ -41,7 +41,7 @@ class Main extends Component {
         } else {
             roots = (
                 <Switch>
-                    < Route path="/orders" component={Orders} />
+                    <Route path="/orders" component={Orders} />
                     <Route path="/checkout" component={Checkout} />
                     <Route path="/" exact component={BurgerBuilder} />
                     <Route path="/logout" component={Logout} />
